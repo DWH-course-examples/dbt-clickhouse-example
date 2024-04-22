@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: f_covid_cases
+    columns:
+      - name: report_date
+        description: "case date"
+        tests:
+          - not_null
